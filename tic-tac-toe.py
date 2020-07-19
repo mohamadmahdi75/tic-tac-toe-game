@@ -79,7 +79,7 @@ class TIC_TAC_TOY:
 
         
         for i in range(len(self.grid_button)):
-            self.buttons[i].grid(row=self.grid_button[i][0],column=self.grid_button[i][1])  
+            self.buttons[i].grid(row=self.grid_button[i][0],column=self.grid_button[i][1],padx=2,pady=2)  
         
 
 
